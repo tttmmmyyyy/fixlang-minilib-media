@@ -1,3 +1,7 @@
+## 0.7.3
+### Changed
+- Renamed the values whose names start with `_` and a capital letter to start with `__` (`_PNG_FORMAT_FLAG_AFIRST` -> `__PNG_FORMAT_FLAG_AFIRST`, `_PNG_FORMAT_FLAG_ALPHA` -> `__PNG_FORMAT_FLAG_ALPHA`, `_PNG_FORMAT_FLAG_ASSOCIATED_ALPHA` -> `__PNG_FORMAT_FLAG_ASSOCIATED_ALPHA`, ...). Fix is to read such a name as the name of a type, a trait, a namespace or a module (tttmmmyyyy/fixlang#812).
+
 ## 0.7.2
 ### Fixed
 - Merged PR#3 (thanks to tttmmmyyyy san).
